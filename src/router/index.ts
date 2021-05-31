@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
 import Home from "@/views/Home.vue";
 import Article from "@/views/Article.vue";
+import Upload from "@/views/Upload.vue";
 
 Vue.use(VueRouter);
 
@@ -16,6 +17,11 @@ const routes: Array<RouteConfig> = [
         path: "/article",
         name: "article",
         component: Article,
+      },
+      {
+        path: "/upload",
+        name: "upload",
+        component: Upload,
       },
     ],
   },

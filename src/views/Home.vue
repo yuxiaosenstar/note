@@ -8,6 +8,7 @@
           @select="handleSelect"
         >
           <el-menu-item index="/article">文章</el-menu-item>
+          <el-menu-item index="/upload">上传</el-menu-item>
         </el-menu>
       </el-header>
       <el-main>
